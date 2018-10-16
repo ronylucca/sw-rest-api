@@ -16,7 +16,6 @@ class Planeta {
     }
 
     static mapping = {
-        filmesRelacionados lazy:false
         version false
         table 'TB_PLANETA'
         id column: "ID"

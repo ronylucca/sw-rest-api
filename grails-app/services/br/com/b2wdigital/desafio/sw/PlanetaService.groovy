@@ -70,7 +70,6 @@ class PlanetaService {
                     accept "application/json"
                     contentType "application/json"
                 }
-                print movieData
                 if (movieData.status.toInteger() == HttpStatus.OK.value()) {
                     moviesTitles << movieData.json.title
                 } else {

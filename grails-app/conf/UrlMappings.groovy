@@ -7,6 +7,11 @@ class UrlMappings {
             }
         }
 
+
+        "/planeta/save"(controller: "planetaViews", action: "save")
+
+
+
         "/planeta/$id?"(controller:"planeta", parseRequest: false, ) {
             action = [GET: "show", PUT: "update", DELETE: "delete", POST: "save"]
         }

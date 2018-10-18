@@ -25,7 +25,7 @@
 				</g:eachError>
 			</ul>
 			</g:hasErrors>
-			<g:form url="[resource:planetaInstance, controllerName:'PlanetaViews', action:'save']" >
+			<g:form url="[resource:planetaInstance, controllerName:'planetaViews', action:'save']" >
 				<fieldset class="form">
 					<g:render template="form"/>
 				</fieldset>
